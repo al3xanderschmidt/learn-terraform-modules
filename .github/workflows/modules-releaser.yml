@@ -20,7 +20,7 @@ jobs:
         uses: techpivot/terraform-module-releaser@v1
         id: release
         with:
-          use-ssh-source-format: true
+          use-ssh-source-format: false
 
       - id: debug
         name: Debug
